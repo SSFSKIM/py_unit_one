@@ -49,16 +49,29 @@ for a in range(30):
         turtle.right(90)
 '''
 #code for matrix
+turtle.penup()
+turtle.goto(0,50)
+turtle.pendown()
 turtle.left(90)
-for a in range():
-    turtle.forward(50)
-    turtle.right(90)
-    turtle.forward(10)
+def right_stick():
+    turtle.forward(250)
     turtle.right(90)
     turtle.forward(50)
+    turtle.right(90)
+def left_stick():
+    turtle.forward(250)
     turtle.left(90)
-    turtle.forward(10)
+    turtle.forward(50)
     turtle.left(90)
+def one_big():
+    right_stick()
+    left_stick()
+for a in range(2):
+    for a in range(2):
+        for a in range(2):
+            one_big()
+        right_stick()
+    turtle.right(90)
+    turtle.goto(0,300)
 
-
-
+turtle.exitonclick()
