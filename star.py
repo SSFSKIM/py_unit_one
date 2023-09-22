@@ -1,11 +1,11 @@
 #Steve
 #09.18
 import turtle
-
-
-for a in range(5):
-    turtle.forward(500)
-    turtle.left(144)
+turtle.speed(20000)
+n = 10
+for a in range(2*n):
+    turtle.forward(300)
+    turtle.left(180-(180/n))
 
 turtle.exitonclick()
 
